@@ -736,3 +736,39 @@ git commit -m "first commit"
 git remote add origin https://github.com/Jizhou625/dotfiles.git
 git push -u origin main
 git push -u origin master 
+mv .config .dotfiles/
+.dotfiles/script/bootstrap.sh 
+rm -rf ./.dotfiles/.git
+.dotfiles/script/bootstrap.sh 
+cd .dotfiles/
+git init
+git add . 
+git commit -m "new"
+git remote add origin https://github.com/Jizhou625/dotfiles.git
+git push -u origin master 
+git push -uf origin master 
+./script/bootstrap.sh 
+git add .
+git submit -m "2nd"
+git commit -m "2nd"
+git pull project 
+setp
+git pull project 
+git push project jizhou 
+type -p curl >/dev/null || sudo apt install curl -y
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg && sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null && sudo apt update && sudo apt install gh -y
+gh auth login
+git push project jizhou 
+gh auth login
+git push project jizhou 
+cd 
+cd .config
+ls
+cd  /home/jizhou/.config
+mkdir /home/jizhou/.config
+rm -rf mkdir /home/jizhou/.config:
+rm -rf mkdir /home/jizhou/.config
+rm -rf  /home/jizhou/.config
+mkdir /home/jizhou/.config
+rm -rf  /home/jizhou/.config
+gh auth login
